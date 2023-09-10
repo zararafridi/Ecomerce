@@ -8,8 +8,11 @@ import Cart from './pages/Cart';
 
 
 function App() {
+  // comment
+  const click = ()=> {}
   return (
     <>
+    
       <BrowserRouter>
         <Routes>
         <Route path='/' element={<Home/>}/>
